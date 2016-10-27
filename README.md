@@ -1,3 +1,7 @@
+## 参考
+
+https://github.com/serbanghita/Mobile-Detect
+
 ## 安装
 
 composer require mobiledetect/mobiledetectlib
