@@ -11,7 +11,7 @@ include_once('packages/mobiledetect/mobiledetectlib/Mobile_Detect.php');
 
 $detect = new Mobile_Detect;
 
-if (!$detect->isMobile()) {
+if ($detect->isMobile()) {
   header('Location: http://m.domain.com/');
 }
 ```
@@ -25,7 +25,7 @@ include_once('packages/mobiledetect/mobiledetectlib/Mobile_Detect.php');
 
 $detect = new Mobile_Detect;
 
-if ($detect->isMobile()) {
+if (!$detect->isMobile()) {
   header('Location: http://www.domain.com/');
 }
 ```
