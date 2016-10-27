@@ -1,6 +1,10 @@
+## 安装
+
+composer require mobiledetect/mobiledetectlib
+
 ## PC 端/平板网站
 
-域名：www.domain.com
+域名：[www.domain.com](http://www.domain.com/)
 
 ```php
 include_once('packages/mobiledetect/mobiledetectlib/Mobile_Detect.php');
@@ -14,7 +18,7 @@ if ($detect->isMobile()) {
 
 ## 移动端网站
 
-域名：m.domain.com
+域名：[m.domain.com](http://m.domain.com/)
 
 ```php
 include_once('packages/mobiledetect/mobiledetectlib/Mobile_Detect.php');
