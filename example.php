@@ -1,5 +1,5 @@
 <?php
-include_once('packages/mobiledetect/mobiledetectlib/Mobile_Detect.php');
+include_once('vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php');
 
 $detect = new Mobile_Detect;
 
