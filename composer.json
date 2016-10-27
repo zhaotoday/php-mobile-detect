@@ -1,0 +1,7 @@
+{
+    "name": "vendor/mobile-detect",
+    "type": "library",
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8"
+    }
+}
