@@ -11,7 +11,7 @@ composer require mobiledetect/mobiledetectlib
 域名：[www.domain.com](http://www.domain.com/)
 
 ```php
-require 'vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php';
+require 'vendor/autoload.php'; 
 
 $detect = new Mobile_Detect;
 
@@ -25,7 +25,7 @@ if ($detect->isMobile()) {
 域名：[m.domain.com](http://m.domain.com/)
 
 ```php
-require 'vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php';
+require 'vendor/autoload.php';
 
 $detect = new Mobile_Detect;
 
