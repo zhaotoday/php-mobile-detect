@@ -1,5 +1,5 @@
 <?php
-require 'vendor/mobiledetect/mobiledetectlib/Mobile_Detect.php';
+require 'vendor/autoload.php';
 
 $detect = new Mobile_Detect;
 
